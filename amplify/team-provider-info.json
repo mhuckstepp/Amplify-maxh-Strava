@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-maxhstrava-dev-145559-authRole",
+      "UnauthRoleArn": "arn:aws:iam::904011572310:role/amplify-maxhstrava-dev-145559-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::904011572310:role/amplify-maxhstrava-dev-145559-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-maxhstrava-dev-145559-deployment",
+      "UnauthRoleName": "amplify-maxhstrava-dev-145559-unauthRole",
+      "StackName": "amplify-maxhstrava-dev-145559",
+      "StackId": "arn:aws:cloudformation:eu-west-1:904011572310:stack/amplify-maxhstrava-dev-145559/e977fd20-045c-11ec-9598-06e6d7c1014f",
+      "AmplifyAppId": "d2lbgljdx7os0s"
+    }
+  }
+}
