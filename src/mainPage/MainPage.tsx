@@ -1,5 +1,7 @@
 import React, { useEffect, useState} from 'react'
 import axios from 'axios';
+import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react';
+
 
 const MainPage = () => {
   const [fakeData, setFakeData] = useState<User[] | undefined>(undefined);
@@ -34,12 +36,13 @@ const MainPage = () => {
   <>
     {fakeData && fakeData.map(user => {
     return <p key={user.id}> {user.name}</p>
-  })
-}
-  <p> Working </p>
-  {error && <p> {error}</p>}
+      })
+    }
+    <AmplifySignOut />
+    <p> Working </p>
+    {error && <p> {error}</p>}
   </>
   )
 }
 
-export default MainPage
+export default withAuthenticator(MainPage);
